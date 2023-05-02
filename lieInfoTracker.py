@@ -27,7 +27,7 @@ stderr.writelines(f"""{Re}
       $$ |$$ |\$$$$$$$\ $$ |$$ |  $$ |$$ |     \$$$$$$  |
       \__|\__| \_______|\__|\__|  \__|\__|      \______/
 
-          {Wh}[ + ]  C O D E   B Y  H U N X  [ + ]  
+          {Wh}[ + ]  C O D E   B Y  L I E  [ + ]  
         
     {Wh}[ 1 ] {Gr}IP Tracker
 
