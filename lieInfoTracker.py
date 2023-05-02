@@ -26,15 +26,15 @@ stderr.writelines(f"""{Re}
     | $$| $$| $$_____/  | $$  | $$  | $$| $$    | $$  | $$
     | $$| $$|  $$$$$$$ /$$$$$$| $$  | $$| $$    |  $$$$$$/
     |__/|__/ \_______/|______/|__/  |__/|__/     \______/ 
-                                                - Tracker        
+                                        {Wh}- github.com/Igthz        
                                                                                                          
-          {Wh}[ + ]  C O D E   B Y  Lie  [ + ]  
+          {Wh}[ + ]  C O D E   B Y  L I E  [ + ]  
         
-    {Wh}[ 1 ] {Gr}IP Tracker
+    {Wh}[ 1 ] {Re}IP Tracker
 
-    {Wh}[ 2 ] {Gr}Phone Tracker
+    {Wh}[ 2 ] {Re}Phone Tracker
 
-    {Wh}[ 0 ] {Gr}Exit
+    {Wh}[ 0 ] {Re}Exit
 """)
 
 input_user = input(f'\n   {Wh}@Ghost~# {Gr}') #OPSI MENU
