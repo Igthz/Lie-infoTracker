@@ -16,7 +16,6 @@ Mage='\033[1;35m'
 Cy='\033[1;36m'
 Wh='\033[1;37m'
 
-#BANNER TOOLS
 stderr.writelines(f"""{Re}
      /$$ /$$           /$$$$$$            /$$$$$$         
     | $$|__/          |_  $$_/           /$$__  $$        
@@ -30,17 +29,13 @@ stderr.writelines(f"""{Re}
                                                                                                          
           {Wh}[ + ]  C O D E   B Y  L I E  [ + ]  
         
-    {Wh}[ 1 ] {Re}IP Tracker
-
-    {Wh}[ 2 ] {Re}Phone Tracker
-
-    {Wh}[ 0 ] {Re}Exit
+    {Wh}[ 1 ] {Re}IP Tracker {Wh}[ 2 ] {Re}Phone Tracker {Wh}[ 0 ] {Re}Exit
 """)
 
-input_user = input(f'\n   {Wh}@Ghost~# {Gr}') #OPSI MENU
+input_user = input(f'\n   {Wh}@Lie~# {Gr}') #krll 
 
 
-if input_user == '1': #OPSI 1
+if input_user == '1': 
     os.system('clear')
     time.sleep(1)
     stderr.writelines(f"""{Wh}
