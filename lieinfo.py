@@ -32,7 +32,7 @@ stderr.writelines(f"""{Re}
     {Wh}[ 1 ] {Re}IP Tracker {Wh}[ 2 ] {Re}Phone Tracker {Wh}[ 0 ] {Re}Exit
 """)
 
-input_user = input(f'\n   {Wh}@Lie~# {Gr}') #krll 
+input_user = input(f'\n   {Wh}@Lie~# {Wh}') 
 
 
 if input_user == '1': 
@@ -45,10 +45,10 @@ if input_user == '1':
                 .X*#M@$!!  !X!M$$$$$$WWx:.
                :!!!!!!?H! :!$!$$$$$$$$$$8X:
               !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
-             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!          {Re}--------------------------------
-             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!          {Re}| {Re}Lie Info Tracker - tools for hacking {Re}|
-               !:~~~ .:!M"T#$$$$WX??#MRRMMM!          {Re}|       {Re}github.com/Igthz      {Re}|
-               ~?WuxiW*`   `"#$$$$8!!!!??!!!          {Re}--------------------------------
+             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!        {Re}--------------------------------
+             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!        {Re}| {Re}Lie Info Tracker - tools for hacking {Re}|
+               !:~~~ .:!M"T#$$$$WX??#MRRMMM!        {Re}|     {Re}github.com/Igthz      {Re}|
+               ~?WuxiW*`   `"#$$$$8!!!!??!!!        {Re}--------------------------------
              :X- M$$$$       `"T#$T~!8$WUXU~
             :%`  ~#$$$m:        ~!~ ?$$$$$$
           :!`.-   ~T$$$$8xx.  .xWW- ~""##*"
@@ -116,10 +116,10 @@ elif input_user == '2': #OPSI 2
                 .X*#M@$!!  !X!M$$$$$$WWx:.
                :!!!!!!?H! :!$!$$$$$$$$$$8X:
               !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
-             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!          {Re}--------------------------------
-             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!          {Re}| {Re}Lie Info Tracker - tools for hacking {Re}|
-               !:~~~ .:!M"T#$$$$WX??#MRRMMM!          {Re}|       {Re}github.com/Igthz      {Re}|
-               ~?WuxiW*`   `"#$$$$8!!!!??!!!          {Re}--------------------------------
+             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!        {Re}--------------------------------
+             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!        {Re}| {Re}Lie Info Tracker - tools for hacking {Re}|
+               !:~~~ .:!M"T#$$$$WX??#MRRMMM!        {Re}|     {Re}github.com/Igthz      {Re}|
+               ~?WuxiW*`   `"#$$$$8!!!!??!!!        {Re}--------------------------------
              :X- M$$$$       `"T#$T~!8$WUXU~
             :%`  ~#$$$m:        ~!~ ?$$$$$$
           :!`.-   ~T$$$$8xx.  .xWW- ~""##*"
