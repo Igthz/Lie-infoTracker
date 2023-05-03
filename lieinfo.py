@@ -25,9 +25,9 @@ stderr.writelines(f"""{Re}
     | $$| $$| $$_____/  | $$  | $$  | $$| $$    | $$  | $$
     | $$| $$|  $$$$$$$ /$$$$$$| $$  | $$| $$    |  $$$$$$/
     |__/|__/ \_______/|______/|__/  |__/|__/     \______/ 
-                                        {Wh}- github.com/Igthz        
-                                                                                                         
-          {Wh}[ + ]  C O D E   B Y  L I E  [ + ]  
+    [ + ]  C O D E   B Y  L I E  [ + ]  
+
+    
         
     {Wh}[ 1 ] {Re}IP Tracker {Wh}[ 2 ] {Re}Phone Tracker {Wh}[ 0 ] {Re}Exit
 """)
@@ -38,7 +38,7 @@ input_user = input(f'\n   {Wh}@Lie~# {Gr}') #krll
 if input_user == '1': 
     os.system('clear')
     time.sleep(1)
-    stderr.writelines(f"""{Wh}
+    stderr.writelines(f"""{Re}
 
                       :::!~!!!!!:.
                   .xUHWH!! !!?M88WHX:.
@@ -65,42 +65,42 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 
     try:
         def IP_Track():
-            ip = input(f"{Wh}\n Enter IP target : {Gr}") 
+            ip = input(f"{Wh}\n Enter IP target : {Re}") 
             print()
-            print(f'{Wh}============= {Gr}SHOW INFORMATION IP ADDRESS {Wh}=============')
+            print(f'{Wh}= = = = = = = {Re}IP ADDRES INFO {Wh}= = = = = = =')
             req_api = requests.get(f"http://ipwho.is/{ip}") 
             ip_data = json.loads(req_api.text)
             time.sleep(2)
-            print(f"{Wh}\n IP target       :{Gr}", ip)
-            print(f"{Wh} Type IP         :{Gr}", ip_data["type"])
-            print(f"{Wh} Country         :{Gr}", ip_data["country"])
-            print(f"{Wh} Country Code    :{Gr}", ip_data["country_code"])
-            print(f"{Wh} City            :{Gr}", ip_data["city"])
-            print(f"{Wh} Continent       :{Gr}", ip_data["continent"])
-            print(f"{Wh} Continent Code  :{Gr}", ip_data["continent_code"])
-            print(f"{Wh} Region          :{Gr}", ip_data["region"])
-            print(f"{Wh} Region Code     :{Gr}", ip_data["region_code"])
-            print(f"{Wh} Latitude        :{Gr}", ip_data["latitude"])
-            print(f"{Wh} Longitude       :{Gr}", ip_data["longitude"])
+            print(f"{Wh}\n IP target       :{Re}", ip)
+            print(f"{Wh} Type IP         :{Re}", ip_data["type"])
+            print(f"{Wh} Country         :{Re}", ip_data["country"])
+            print(f"{Wh} Country Code    :{Re}", ip_data["country_code"])
+            print(f"{Wh} City            :{Re}", ip_data["city"])
+            print(f"{Wh} Continent       :{Re}", ip_data["continent"])
+            print(f"{Wh} Continent Code  :{Re}", ip_data["continent_code"])
+            print(f"{Wh} Region          :{Re}", ip_data["region"])
+            print(f"{Wh} Region Code     :{Re}", ip_data["region_code"])
+            print(f"{Wh} Latitude        :{Re}", ip_data["latitude"])
+            print(f"{Wh} Longitude       :{Re}", ip_data["longitude"])
             lat = int(ip_data['latitude'])
             lon = int(ip_data['longitude'])
-            print(f"{Wh} Maps            :{Gr}",f"https://www.google.com/maps/@{lat},{lon},8z")
-            print(f"{Wh} EU              :{Gr}", ip_data["is_eu"])
-            print(f"{Wh} Postal          :{Gr}", ip_data["postal"])
-            print(f"{Wh} Calling Code    :{Gr}", ip_data["calling_code"])
-            print(f"{Wh} Capital         :{Gr}", ip_data["capital"])
-            print(f"{Wh} Borders         :{Gr}", ip_data["borders"])
-            print(f"{Wh} Country Flag    :{Gr}", ip_data["flag"]["emoji"])
-            print(f"{Wh} ASN             :{Gr}", ip_data["connection"]["asn"])
-            print(f"{Wh} ORG             :{Gr}", ip_data["connection"]["org"])
-            print(f"{Wh} ISP             :{Gr}", ip_data["connection"]["isp"])
-            print(f"{Wh} Domain          :{Gr}", ip_data["connection"]["domain"])
-            print(f"{Wh} ID              :{Gr}", ip_data["timezone"]["id"])
-            print(f"{Wh} ABBR            :{Gr}", ip_data["timezone"]["abbr"])
-            print(f"{Wh} DST             :{Gr}", ip_data["timezone"]["is_dst"])
-            print(f"{Wh} Offset          :{Gr}", ip_data["timezone"]["offset"])
-            print(f"{Wh} UTC             :{Gr}", ip_data["timezone"]["utc"])
-            print(f"{Wh} Current Time    :{Gr}", ip_data["timezone"]["current_time"])
+            print(f"{Wh} Maps            :{Re}",f"https://www.google.com/maps/@{lat},{lon},8z")
+            print(f"{Wh} EU              :{Re}", ip_data["is_eu"])
+            print(f"{Wh} Postal          :{Re}", ip_data["postal"])
+            print(f"{Wh} Calling Code    :{Re}", ip_data["calling_code"])
+            print(f"{Wh} Capital         :{Re}", ip_data["capital"])
+            print(f"{Wh} Borders         :{Re}", ip_data["borders"])
+            print(f"{Wh} Country Flag    :{Re}", ip_data["flag"]["emoji"])
+            print(f"{Wh} ASN             :{Re}", ip_data["connection"]["asn"])
+            print(f"{Wh} ORG             :{Re}", ip_data["connection"]["org"])
+            print(f"{Wh} ISP             :{Re}", ip_data["connection"]["isp"])
+            print(f"{Wh} Domain          :{Re}", ip_data["connection"]["domain"])
+            print(f"{Wh} ID              :{Re}", ip_data["timezone"]["id"])
+            print(f"{Wh} ABBR            :{Re}", ip_data["timezone"]["abbr"])
+            print(f"{Wh} DST             :{Re}", ip_data["timezone"]["is_dst"])
+            print(f"{Wh} Offset          :{Re}", ip_data["timezone"]["offset"])
+            print(f"{Wh} UTC             :{Re}", ip_data["timezone"]["utc"])
+            print(f"{Wh} Current Time    :{Re}", ip_data["timezone"]["current_time"])
         if __name__ == '__main__':
             IP_Track()
     except KeyboardInterrupt:
@@ -109,7 +109,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 elif input_user == '2': #OPSI 2
     os.system('clear')
     time.sleep(1)
-    stderr.writelines(f"""{Wh}
+    stderr.writelines(f"""{Re}
 
                       :::!~!!!!!:.
                   .xUHWH!! !!?M88WHX:.
@@ -136,7 +136,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 
     try:
         def phoneGW():
-            User_phone = input(f"\n {Wh}Enter phone number target {Gr}Ex [+6281xxxxxxxxx] {Wh}: {Gr}") 
+            User_phone = input(f"\n {Wh}Enter phone number target {Gr}Ex [+5521xxxxxxxxx] {Wh}: {Re}") 
             default_region = "ID" 
 
             parsed_number = phonenumbers.parse(User_phone, default_region) 
@@ -151,31 +151,31 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
             timezone1 = timezone.time_zones_for_number(parsed_number)
             timezoneF = ', '.join(timezone1)
 
-            print(f"\n {Wh}========== {Gr}SHOW INFORMATION PHONE NUMBERS {Wh}==========")
-            print(f"\n {Wh}Location             :{Gr} {location}")
-            print(f" {Wh}Region Code          :{Gr} {region_code}")
-            print(f" {Wh}Timezone             :{Gr} {timezoneF}")
-            print(f" {Wh}Operator             :{Gr} {jenis_provider}")
-            print(f" {Wh}Valid number         :{Gr} {is_valid_number}")
-            print(f" {Wh}Possible number      :{Gr} {is_possible_number}")
-            print(f" {Wh}International format :{Gr} {formatted_number}")
-            print(f" {Wh}Mobile format        :{Gr} {formatted_number_for_mobile}")
-            print(f" {Wh}Original number      :{Gr} {parsed_number.national_number}")
-            print(f" {Wh}E.164 format         :{Gr} {phonenumbers.format_number(parsed_number, phonenumbers.PhoneNumberFormat.E164)}")
-            print(f" {Wh}Country code         :{Gr} {parsed_number.country_code}")
-            print(f" {Wh}Local number         :{Gr} {parsed_number.national_number}")
+            print(f"\n {Wh}= = = = = {Re}SHOW INFORMATION PHONE NUMBERS {Wh}= = = = =")
+            print(f"\n {Wh}Location             :{Re} {location}")
+            print(f" {Wh}Region Code          :{Re} {region_code}")
+            print(f" {Wh}Timezone             :{Re} {timezoneF}")
+            print(f" {Wh}Operator             :{Re} {jenis_provider}")
+            print(f" {Wh}Valid number         :{Re} {is_valid_number}")
+            print(f" {Wh}Possible number      :{Re} {is_possible_number}")
+            print(f" {Wh}International format :{Re} {formatted_number}")
+            print(f" {Wh}Mobile format        :{Re} {formatted_number_for_mobile}")
+            print(f" {Wh}Original number      :{Re} {parsed_number.national_number}")
+            print(f" {Wh}E.164 format         :{Re} {phonenumbers.format_number(parsed_number, phonenumbers.PhoneNumberFormat.E164)}")
+            print(f" {Wh}Country code         :{Re} {parsed_number.country_code}")
+            print(f" {Wh}Local number         :{Re} {parsed_number.national_number}")
             if number_type == phonenumbers.PhoneNumberType.MOBILE:
-                print(f" {Wh}Type                 :{Gr} This is a mobile number")
+                print(f" {Wh}Type                 :{Re} This is a mobile number")
             elif number_type == phonenumbers.PhoneNumberType.FIXED_LINE:
-                print(f" {Wh}Type                 :{Gr} This is a fixed-line number")
+                print(f" {Wh}Type                 :{Re} This is a fixed-line number")
             else:
-                print(f" {Wh}Type                 :{Gr} This is another type of number")
+                print(f" {Wh}Type                 :{Re} This is another type of number")
         if __name__ == '__main__':
             phoneGW()
     except KeyboardInterrupt:
         print(f" {Wh}[{Ye}!{Wh}] {Ye}PROGRAM STOPPED...")
     
-elif input_user == '0': #OPSI 3
-    print(f"\n  {Wh}[{Ye}!{Wh}] {Ye}THANK'S FOR USING TOOL {Ye}LieInfo")
+elif input_user == '0': 
+    print(f"\n  {Wh}[{Ye}!{Wh}] {Ye}thx for using this tool {Ye}LieInfo")
 else:
-    print(f" {Ye}Opss no option !") 
+    print(f" {Ye}No have options in this number!") 
